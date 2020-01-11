@@ -1,0 +1,167 @@
+@media all and (max-width:1280px) {
+  
+}
+@media all and (max-width:1200px) {
+	.menubar-area ul li a {
+		padding: 15px 14px;
+	}
+	.logo-area h2 {
+		font-size: 27px;
+		color: #49688e;
+	}
+	.f_page img {
+		width: 60px;
+		margin-right: 10px;
+	}
+	.fb_likes a {
+		font-size: 15px;
+	}
+	.fb_likes span {
+		font-size: 12px;
+	}
+
+@media all and (min-width:992px){
+
+}
+@media all and (max-width:991px){
+	.nav-icon {
+		display: block;
+	}
+	.menubar-area {
+		display:none;
+		padding: 10px 0;
+	}
+	.mobile-menubar{
+		display:block !important;
+	}
+	.menubar {
+		margin-top: 20px;
+	}
+	.menubar-area ul {
+		display: block;
+	}
+	.menubar-area ul li a {
+		padding: 10px 12px;
+	}
+	.logo-area {
+		display: flex;
+		align-items: center;
+	}
+	.social-icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+		padding-top: 10px;
+	}
+	.footer-img {
+		margin-top: 15px;
+	}
+	.footer-icon {
+		padding-top: 0;
+	}
+	.fb_likes a {
+		display: inline-block;
+	}
+	.mobile-menubar {
+		position: fixed;
+		content: "";
+		top: 0;
+		left: 0;
+		background: linear-gradient( 89.8deg, rgb(39, 115, 255) 4.3%, rgb(51, 205, 227) 101.4% );
+		width: 70%;
+		height: 100%;
+		transition: 1s;
+		z-index: 9;
+		box-shadow: none;
+		padding-top: 30px;
+		overflow: hidden;
+	}
+	.canvas-menu {
+		transform: translate(-100%,0px);
+	}
+}
+@media all and (min-width:768px){
+	
+}
+@media all and (max-width:767px){
+	.map-area iframe {
+		margin-top: 15px;
+	}
+	.copyright-area p {
+		text-align: center;
+		padding: 20px 0;
+	}
+	.footer-icon {
+		padding-bottom: 20px;
+	}
+	.social-icon {
+		display: none;
+	}
+	.logo-area h2 {
+		font-size: 26px;
+	}
+	.logo-area {
+		display: block;
+	}
+	.logo-area img {
+		margin-bottom: 10px;
+		padding-right:0;
+	}
+	.admin{
+		display: none;
+	}
+	.header-menu {
+		text-align: center;
+	}
+}
+@media all and (max-width:575px) {
+	.admin ul {
+		display: flex;
+		justify-content: center;
+		padding-top: 10px;
+	}
+}
+@media all and (max-width:450px){
+	.header-top-area ul li {
+		padding-right: 10px;
+	}
+	.logo-area img {
+		height: 70px;
+		padding-right: 10px;
+	}
+	.logo-area h2 {
+		font-size: 18px;
+	}
+	.trending h2 {
+		width: 96px;
+	}
+		.TickerNews {
+		margin-left: 10px;
+	}
+	.TickerNews {
+		margin-left: 10px;
+	}
+	.slider-area img {
+		width: 100%;
+		height: auto;
+	}
+	.school-info h3 {
+		font-size: 22px;
+		margin: 0px 0 15px 0;
+	}
+	.teacher_img-area {
+		max-width: 120px;
+	}
+	.post_single_item img {
+		height: auto;
+	}
+	.nav-icon {
+		top: 8px;
+	}
+	.nav-icon i {
+		font-size: 27px;
+		width: 40px;
+		height: 35px;
+	}
+}
